@@ -1,0 +1,62 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "tesztek",
+    "dateExported": "2024-04-19T13:23:15.540Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "61795eef-d59f-4c2e-bedd-e5da00510390",
+            "colId": "a7c4d2b5-205a-4c29-a70c-338568fa2e14",
+            "containerId": "",
+            "name": "tesztmegjelenit",
+            "url": "http://127.0.0.1:8000/api/tesztek",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-19T11:33:52.647Z",
+            "modified": "2024-04-19T11:36:13.371Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9dcc49bf-b40f-4e32-b0d6-056b26cb24fd",
+            "colId": "a7c4d2b5-205a-4c29-a70c-338568fa2e14",
+            "containerId": "",
+            "name": "tesztKategora",
+            "url": "http://127.0.0.1:8000/api/tesztek/kategoria/{id}",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-04-19T11:43:32.251Z",
+            "modified": "2024-04-19T11:44:16.556Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "1",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "23a786fe-a871-41ba-be6e-60688e8668e3",
+            "colId": "a7c4d2b5-205a-4c29-a70c-338568fa2e14",
+            "containerId": "",
+            "name": "kategoriak",
+            "url": "http://127.0.0.1:8000/api/kategoriaId",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-04-19T11:44:52.281Z",
+            "modified": "2024-04-19T13:03:18.329Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

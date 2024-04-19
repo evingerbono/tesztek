@@ -1,0 +1,24 @@
+header{
+    text-align: center;
+}
+button{
+    width: 49%;
+}
+.gomb{
+    width: 10%;
+}
+.card{
+    width: 75%;
+    margin: auto;
+}
+.card-header{
+    background-color: black;
+    color: white;
+}
+.szuresek{
+    margin: auto;
+}
+main{
+    max-width: 1500px;
+    margin: auto;
+}
